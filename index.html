@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+    </head>
+
+    <body>
+
+        <form>
+            <table width="70%" border="1" cellpadding="5" cellspacing="10" align="center" bgcolor="#F3F4F2">
+                <tr>
+                    <td colspan="2" align="center" >
+                        <img src="images/logo (2).png" width="200">
+
+                        <h3 align="left"> Admission Form</h3> 
+                        
+                    </td>
+                </tr>
+             
+
+                <tr>
+                    <td>
+                      
+                        <label for="fastname" size="30">Fast Name <font color="red">*</font></label>
+                        <input type="text" id="fastname">
+                    </td>
+                    <td>
+                        
+                        <label for="lastname">Last Name <font color="red">*</font></label>
+                        <input type="text" id="lastname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                        <label for="fname" size="30">Father's Name <font color="red">*</font></label>
+                        <input type="text" id="fname">
+                    </td>
+                    <td>
+                    
+                        <label for="ftel">Mobile <font color="red">*</font></label>
+                        <input type="tel" id="ftel">
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        
+                        <label for="mname" size="30">Mother's Name <font color="red">*</font></label>
+                        <input type="text" id="mname">
+                    </td>
+                    <td>
+                    
+                        <label for="mtel">Mobile <font color="red">*</font></label>
+                        <input type="tel" id="mtel">
+
+                    </td>
+                </tr>
+               
+               
+               
+                <tr>
+
+                    <td>
+                        <label for="birth">Date of Birth:<font color="red">*</font></label>
+                        <input type="date" id="birth">
+                    </td>
+                    <td>
+                        <label for="email">Email:<font color="red">*</font></label>
+                        <input type="email" id="email">
+
+
+                    </td>
+
+                    
+                </tr>
+                
+                <tr>
+                    <td colspan="2">
+                        <p>Gender:<font color="red">*</font></p>
+                        <label for="m">M</label>
+                        <input type="radio" id="m" name="gender"> &nbsp;
+
+                        <label for="f">F</label> 
+                        <input type="radio" id="f" name="gender"> &nbsp;
+
+                        
+                        <label for="o">others</label> 
+                        <input type="radio" id="o" name="gender">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p> Course:<font color="red">*</font></p>
+                      
+                        <input type="checkbox" id="wd"> 
+                        <label for="wd">Web Design</label><br>
+
+                       
+                        <input type="checkbox" id="pwd"> 
+                        <label for="pwd">Web Development</label> <br>
+
+                        
+                        <input type="checkbox" id="gd">
+                        <label for="gd">Graphic Design</label> <br>
+
+                        
+                        <input type="checkbox" id="oc">
+                        <label for="oc">Office</label><br>
+
+                        
+                        <input type="checkbox" id="mg">
+                        <label for="mg">Motion Graphic</label> <br>
+
+                        
+                        <input type="checkbox" id="c+">
+                        <label for="c+">C++</label>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <label for="pic">Upload Your Picture:</label>
+                        <input type="file" id="pic"> 
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <p>Address:</p>
+                        <select>
+                            <option>Select Your Country</option>
+
+                         <optgroup label="Asia">
+                            <option selected>Bangladesh</option>
+                            <option>India</option>
+                            <option>Pakistan</option>
+                        </optgroup>
+
+                        <optgroup label="Europe">
+                            <option>Belgium</option>
+                            <option> France</option>
+                            <option>Germany</option>
+                            <option disabled>Italy</option>
+                        </optgroup>
+
+                        </select>
+
+                        <tr>
+                
+                            <td colspan="2">
+                                <textarea cols="50" rows="5" placeholder="text here.......">  </textarea>
+                            </td>
+                         </tr>
+
+                         <tr>
+                            <td colspan="2" bgcolor="#DA9F44">
+                                <p>TERMS AND CONDITIONS</p>
+                            </td>
+                         </tr>
+
+                         <tr>
+                            <td colspan="2">
+                                
+                                <p>Your Terms and Conditions section is like a contract between you and your customers. You make information and services available to your customers, and your customers must follow your rules.</p>
+                                 <input type="checkbox" id="tm">
+                                 <label for="tm">I accept all terms and conditions</label>
+                            </td>
+
+
+                         </tr>
+                         <tr>
+                            <td>
+                                <input type="reset" value="Reset Form">
+                            </td>
+
+                            <td>
+                                <input type="submit" value="Submit Form">
+                            </td>
+
+
+                         </tr>
+                        
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
